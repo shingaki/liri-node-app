@@ -7,6 +7,7 @@ var moment = require("moment");
 
 var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
+var omdb = require("omdb")
 var spotifyInput = require("inquirer");
 
 
@@ -27,7 +28,11 @@ if (process.argv[2] == "concert-this") {
     }
     getSpotify(searchItem);
 } else if (process.argv[2] == "movie-this") {
-    getMovie()
+    if (searchItem === "" )
+    {
+        searchItem = "Mr. Nobody";
+    }
+    getMovie(searchItem)
 } else console.log("Please choose one of the following commands: concert-this, spotify-this-song, or movie-this");
 
 // pass in the band or artist and call API to get dates
@@ -68,8 +73,41 @@ function getSpotify(searchItem) {
 
 
 
-function getMovie() {
+function getMovie(searchItem) {
     console.log("Movie function");
+
+    var URL = "https://www.omdbapi.com/?t=" + searchItem + "&y=&plot=short&apikey=trilogy";
+
+    axios.get(URL).then( function (response) {
+        var jsonData = response.data;
+
+        // console.log(jsonData);
+        //
+        // console.log(jsonData.Title);
+        // console.log(jsonData.Released);
+        // console.log(jsonData.imdbRating);
+        // console.log(jsonData.Ratings[1].Source);
+        // console.log(jsonData.Ratings[1].Value);
+        // console.log(jsonData.Country);
+        // console.log(jsonData.Language);
+        // console.log(jsonData.Plot);
+        // console.log(jsonData.Actors);
+        //
+        var showData = "Movie Title: " + jsonData.Title + "\n" +
+            "Year of Release: " + jsonData.Released + "\n" +
+            "IMDB Rating: " + jsonData.imdbRating + "\n" +
+            "Rotten Tomatoes Rating: " + jsonData.Ratings[1].Value + "\n" +
+            "Country: " + jsonData.Country + "\n" +
+            "Language: " + jsonData.Language + "\n" +
+            "Plot: " + jsonData.Plot + "\n" +
+            "Actors: " + jsonData.Actors + "\n";
+
+        console.log(showData);
+
+
+
+    })
+
 }
 
 
