@@ -63,9 +63,9 @@ function 'whatSelection' and allowed it to determine which function to call (mov
 
 ### 1) Screenshot: Executing command 'movie-this' for the Movie 'Saw'
 
-![Movie-This-Saw](movie-this-command.png)
+![Movie-This-Saw](images/movie-this-command.png)
 
 
-![Log_File_For_Do_What_It_Says](dowhatitsays-log.png)
+![Log_File_For_Do_What_It_Says](images/dowhatitsays-log.png)
 
 
