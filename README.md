@@ -69,7 +69,7 @@ function 'whatSelection' and allowed it to determine which function to call (mov
 
 ![Movie-This-Saw-Results](images/saw-log-file.png)
 
-#### 3) Screenshot: Executing command 'spotify-this-song' for the Song Man In The Mirrow
+#### 3) Screenshot: Executing command 'spotify-this-song' for the Song Man In The Mirror
 
 ![Spotify-This_Song](images/spotify-this-song-command.png)
 
@@ -91,7 +91,7 @@ function 'whatSelection' and allowed it to determine which function to call (mov
 
 #### 8) Screenshot: Executing command 'do-what-it-says' with spotify-this-song command
 
-![Random-One](images/random-one.png)
+![Random-One](images/random-one-command.png)
 
 #### 9) Screenshot: Display the log file with the results of do-what-it-says from the random file with spotify-this-song
 
@@ -99,18 +99,23 @@ function 'whatSelection' and allowed it to determine which function to call (mov
 
 #### 10) Screenshot: Executing command 'do-what-it-says' with movie-this command
 
-![Random-Two](images/random-two.png)
+![Random-Two](images/random-two-command.png)
 
 #### 11) Screenshot: Display the log file with the results of do-what-it-says from the random file with movie-this
 
 ![Random-Two-Results](images/random-two-results.png)
 
-#### 12) Screenshot: Executing command and display for 'movie-this' when a movie title is not provided
+#### 12) Screenshot: Executing command and display for the command 'movie-this' when a movie title is not provided
 
-![Movie-This-No](images/random-this-no.png)
+![Movie-This-No](images/movie-this-no.png)
 
 #### 13) Screenshot: Displaying how the results are appended to the end of log file
 
 ![Append-Log](images/log-append.png)
+
+
+### Summary
+
+I hope you enjoy the LIRI-NODE-APPLICATION as much as I did building it. 
 
 
