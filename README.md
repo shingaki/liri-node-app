@@ -61,11 +61,56 @@ function 'whatSelection' and allowed it to determine which function to call (mov
 
 ## Application Flow
 
-### 1) Screenshot: Executing command 'movie-this' for the Movie 'Saw'
+#### 1) Screenshot: Executing command 'movie-this' for the Movie 'Saw'
 
 ![Movie-This-Saw](images/movie-this-command.png)
 
+#### 2) Screenshot: Display the log file with the results of movie-this Saw
 
-![Log_File_For_Do_What_It_Says](images/dowhatitsays-log.png)
+![Movie-This-Saw-Results](images/saw-log-file.png)
+
+#### 3) Screenshot: Executing command 'spotify-this-song' for the Song Man In The Mirrow
+
+![Spotify-This_Song](images/spotify-this-song-command.png)
+
+#### 4) Screenshot: Display the log file with the results of spotify-this-song
+
+![Spotify-This-Results](images/man-log-file.png)
+
+#### 5) Screenshot: Executing command 'concert-this-command' for Ariana Grande
+
+![Concert-This-Command](images/concert-this-command.png)
+
+#### 6) Screenshot: Display the terminal with the results of concert-this
+
+![Concert-This-Show](images/concert-this-show.png)
+
+#### 7) Screenshot: Display the log file with the results of spotify-this-song
+
+![Concert-This-Results](images/concert-this-log.png)
+
+#### 8) Screenshot: Executing command 'do-what-it-says' with spotify-this-song command
+
+![Random-One](images/random-one.png)
+
+#### 9) Screenshot: Display the log file with the results of do-what-it-says from the random file with spotify-this-song
+
+![Random-One-Results](images/random-one-results.png)
+
+#### 10) Screenshot: Executing command 'do-what-it-says' with movie-this command
+
+![Random-Two](images/random-two.png)
+
+#### 11) Screenshot: Display the log file with the results of do-what-it-says from the random file with movie-this
+
+![Random-Two-Results](images/random-two-results.png)
+
+#### 12) Screenshot: Executing command and display for 'movie-this' when a movie title is not provided
+
+![Movie-This-No](images/random-this-no.png)
+
+#### 13) Screenshot: Displaying how the results are appended to the end of log file
+
+![Append-Log](images/log-append.png)
 
 
