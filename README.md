@@ -114,6 +114,11 @@ function 'whatSelection' and allowed it to determine which function to call (mov
 ![Append-Log](images/log-append.png)
 
 
+### My Portfolio
+
+I updated My Portfolio to include the LIRI NODE APP.
+
+
 ### Summary
 
 I hope you enjoy the LIRI-NODE-APPLICATION as much as I did building it. 
