@@ -3,38 +3,34 @@ require("dotenv").config();
 var axios = require("axios");
 var fs = require("fs");
 var moment = require("moment");
-
-
 var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
-var omdb = require("omdb")
-var spotifyInput = require("inquirer");
-
-
 var spotify = new Spotify(keys.spotify);
-
+var selection = process.argv[2];
 var searchItem = process.argv.slice(3).join(" ");
+var divider = "\n------------------------------------------------------------\n\n";
 
 
-console.log(searchItem);
 
+function whatSelection() {
+    if (selection == "concert-this") {
+        getConcert(searchItem);
+    } else if (selection == "spotify-this-song") {
+        if (searchItem === "") {
+            searchItem = "Ace of Base The Sign";
+        }
+        getSpotify(searchItem);
+    } else if (selection == "movie-this") {
+        if (searchItem === "") {
+            searchItem = "Mr. Nobody";
+        }
+        getMovie(searchItem)
+    } else if (selection == "do-what-it-says") {
+        doWhatItSays();
+    } else console.log("Please choose one of the following commands: concert-this, spotify-this-song, or movie-this");
+}
 
-if (process.argv[2] == "concert-this") {
-    getConcert(searchItem);
-} else if (process.argv[2] == "spotify-this-song") {
-    if (searchItem === "" )
-    {
-        searchItem = "Ace of Base The Sign";
-    }
-    getSpotify(searchItem);
-} else if (process.argv[2] == "movie-this") {
-    if (searchItem === "" )
-    {
-        searchItem = "Mr. Nobody";
-    }
-    getMovie(searchItem)
-} else console.log("Please choose one of the following commands: concert-this, spotify-this-song, or movie-this");
-
+whatSelection();
 // pass in the band or artist and call API to get dates
 function getConcert(searchItem) {
     console.log("Concert function");
@@ -43,18 +39,17 @@ function getConcert(searchItem) {
     axios.get(URL).then(function (response) {
         var jsonData = response.data;
 
-        // console.log(jsonData);
-
             jsonData.forEach(function (entry) {
                 var showData =
                     "Venue: " + entry.venue.name +
                     " Location: " + entry.venue.city + ", " + entry.venue.country +
-                    "Date: " + moment(entry.datetime).format("MM/DD/YYYY")
-                console.log(showData);
+                    "Date: " + moment(entry.datetime).format("MM/DD/YYYY");
+                writeToFile(showData);
             })
     })
 }
 
+// pass in the song to search for
 function getSpotify(searchItem) {
     console.log("Spotify function");
 
@@ -66,13 +61,12 @@ function getSpotify(searchItem) {
         var showData = "Artist: " + data.tracks.items[0].artists[0].name + "\n" + "Song Name: " + data.tracks.items[0].name + "\n" + "Song Preview: " + data.tracks.items[0].preview_url + "\n" +
             "Album: " + data.tracks.items[0].album.name;
 
-        console.log(showData);
+        writeToFile(showData);
 
     });
 }
 
-
-
+// pass in the movie to search for
 function getMovie(searchItem) {
     console.log("Movie function");
 
@@ -81,18 +75,6 @@ function getMovie(searchItem) {
     axios.get(URL).then( function (response) {
         var jsonData = response.data;
 
-        // console.log(jsonData);
-        //
-        // console.log(jsonData.Title);
-        // console.log(jsonData.Released);
-        // console.log(jsonData.imdbRating);
-        // console.log(jsonData.Ratings[1].Source);
-        // console.log(jsonData.Ratings[1].Value);
-        // console.log(jsonData.Country);
-        // console.log(jsonData.Language);
-        // console.log(jsonData.Plot);
-        // console.log(jsonData.Actors);
-        //
         var showData = "Movie Title: " + jsonData.Title + "\n" +
             "Year of Release: " + jsonData.Released + "\n" +
             "IMDB Rating: " + jsonData.imdbRating + "\n" +
@@ -102,12 +84,28 @@ function getMovie(searchItem) {
             "Plot: " + jsonData.Plot + "\n" +
             "Actors: " + jsonData.Actors + "\n";
 
-        console.log(showData);
-
-
+        writeToFile(showData);
 
     })
 
+}
+
+function doWhatItSays()
+{
+    fs.readFile('random.txt', "utf8", function(err, response) {
+        console.log("File " + response);
+        var randomArray = response.toString().split(",");
+        selection = randomArray[0];
+        searchItem = randomArray[1];
+
+        whatSelection();
+    });
+}
+
+function writeToFile(showData) {
+    fs.appendFile("log.txt", showData + divider, function(err) {
+        if (err) throw err;
+    });
 }
 
 
