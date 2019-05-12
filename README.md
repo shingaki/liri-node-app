@@ -61,6 +61,6 @@ function 'whatSelection' and allowed it to determine which function to call (mov
 
 ## Application Flow
 
-![Test_Image](dowhatisay-mov.png)
+![Log_File_For_Do_What_It_Says](dowhatitsays-log.png)
 
 
