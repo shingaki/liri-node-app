@@ -37,20 +37,6 @@ function whatSelection() {
 }
 
 
-//     if (selection == "concert-this") {
-//         getConcert(searchItem);
-//     } else if (selection == "spotify-this-song") {
-//
-//     } else if (selection == "movie-this") {
-//         if (searchItem === "") {
-//             searchItem = "Mr. Nobody";
-//         }
-//         getMovie(searchItem)
-//     } else if (selection == "do-what-it-says") {
-//         doWhatItSays();
-//     } else console.log("Please choose one of the following commands: concert-this, spotify-this-song, or movie-this");
-// }
-
 whatSelection();
 
 // pass in the band or artist and call API to get dates
