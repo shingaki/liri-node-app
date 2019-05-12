@@ -59,5 +59,8 @@ function 'whatSelection' and allowed it to determine which function to call (mov
 6) My last step was to write the results to the log.txt file. 
 
 
+## Application Flow
+
+![Test_Image](dowhatisay-mov.png)
 
 
