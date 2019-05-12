@@ -1,9 +1,3 @@
-Artist: Backstreet Boys
-Song Name: I Want It That Way
-Song Preview: https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=144fdff45f8241bdb75b94bd85a6044d
-Album: The Hits--Chapter One
-------------------------------------------------------------
-
 Venue: T-Mobile Arena Location: Las Vegas, United StatesDate: 05/11/2019
 ------------------------------------------------------------
 
@@ -11,9 +5,6 @@ Venue: Talking Stick Resort Arena Location: Phoenix, United StatesDate: 05/14/20
 ------------------------------------------------------------
 
 Venue: AT&T Center Location: San Antonio, United StatesDate: 05/17/2019
-------------------------------------------------------------
-
-Venue: Toyota Center Location: Houston, United StatesDate: 05/19/2019
 ------------------------------------------------------------
 
 Venue: Chesapeake Energy Arena Location: Oklahoma City, United StatesDate: 05/23/2019
@@ -25,7 +16,10 @@ Venue: Smoothie King Center Location: New Orleans, United StatesDate: 05/25/2019
 Venue: Amway Center Location: Orlando, United StatesDate: 05/29/2019
 ------------------------------------------------------------
 
-Venue: Amalie Arena Location: Tampa, United StatesDate: 05/28/2019
+Venue: American Airlines Arena Location: Miami, United StatesDate: 05/31/2019
+------------------------------------------------------------
+
+Venue: American Airlines Arena Location: Miami, United StatesDate: 06/01/2019
 ------------------------------------------------------------
 
 Venue: United Center Location: Chicago, United StatesDate: 06/04/2019
@@ -67,7 +61,7 @@ Venue: TD Garden Location: Boston, United StatesDate: 06/22/2019
 Venue: Wells Fargo Center Location: Philadelphia, United StatesDate: 06/24/2019
 ------------------------------------------------------------
 
-Venue: American Airlines Arena Location: Miami, United StatesDate: 05/31/2019
+Venue: Scotiabank Arena Location: Toronto, CanadaDate: 06/26/2019
 ------------------------------------------------------------
 
 Venue: Bankers Life Fieldhouse Location: Indianapolis, United StatesDate: 06/29/2019
@@ -85,7 +79,7 @@ Venue: Enterprise Center Location: St. Louis, United StatesDate: 07/06/2019
 Venue: Xcel Energy Center Location: St Paul, United StatesDate: 07/08/2019
 ------------------------------------------------------------
 
-Venue: Scotiabank Arena Location: Toronto, CanadaDate: 06/26/2019
+Venue: Pepsi Center Location: Denver, United StatesDate: 07/11/2019
 ------------------------------------------------------------
 
 Venue: Vivint Smart Home Arena Location: Salt Lake City, United StatesDate: 07/13/2019
@@ -103,7 +97,7 @@ Venue: The O2 Arena Location: London, United KingdomDate: 08/17/2019
 Venue: The O2 Location: London, United KingdomDate: 08/19/2019
 ------------------------------------------------------------
 
-Venue: The O2 Arena Location: London, United KingdomDate: 08/20/2019
+Venue: Amalie Arena Location: Tampa, United StatesDate: 05/28/2019
 ------------------------------------------------------------
 
 Venue: Ziggo Dome Location: Amsterdam, NetherlandsDate: 08/23/2019
@@ -118,7 +112,7 @@ Venue: AccorHotels Arena Location: Paris, FranceDate: 08/27/2019
 Venue: AccorHotels Arena Location: Paris, FranceDate: 08/28/2019
 ------------------------------------------------------------
 
-Venue: Sportpaleis Antwerpen Location: Antwerpen, BelgiumDate: 08/30/2019
+Venue: American Airlines Center Location: Dallas, United StatesDate: 05/21/2019
 ------------------------------------------------------------
 
 Venue: Lanxess Arena Location: Köln, GermanyDate: 09/01/2019
@@ -133,7 +127,7 @@ Venue: Barclaycard Arena Location: Hamburg, GermanyDate: 09/05/2019
 Venue: O2 arena Location: Praha 9, Czech RepublicDate: 09/08/2019
 ------------------------------------------------------------
 
-Venue: American Airlines Arena Location: Miami, United StatesDate: 06/01/2019
+Venue: Tauron Arena Location: Kraków, PolandDate: 09/09/2019
 ------------------------------------------------------------
 
 Venue: Ziggo Dome Location: Amsterdam, NetherlandsDate: 09/11/2019
@@ -181,12 +175,198 @@ Venue: Mercedes-Benz-Arena Location: Berlin, GermanyDate: 10/10/2019
 Venue: Hallenstadion Location: Zürich, SwitzerlandDate: 10/13/2019
 ------------------------------------------------------------
 
-Venue: American Airlines Center Location: Dallas, United StatesDate: 05/21/2019
+Venue: The O2 Arena Location: London, United KingdomDate: 08/20/2019
+------------------------------------------------------------
+
+Venue: Toyota Center Location: Houston, United StatesDate: 05/19/2019
+------------------------------------------------------------
+
+Venue: Sportpaleis Antwerpen Location: Antwerpen, BelgiumDate: 08/30/2019
+------------------------------------------------------------
+
+Venue: T-Mobile Arena Location: Las Vegas, United StatesDate: 05/11/2019
+------------------------------------------------------------
+
+Venue: Toyota Center Location: Houston, United StatesDate: 05/19/2019
+------------------------------------------------------------
+
+Venue: Chesapeake Energy Arena Location: Oklahoma City, United StatesDate: 05/23/2019
+------------------------------------------------------------
+
+Venue: Smoothie King Center Location: New Orleans, United StatesDate: 05/25/2019
+------------------------------------------------------------
+
+Venue: Amalie Arena Location: Tampa, United StatesDate: 05/28/2019
+------------------------------------------------------------
+
+Venue: Amway Center Location: Orlando, United StatesDate: 05/29/2019
+------------------------------------------------------------
+
+Venue: American Airlines Arena Location: Miami, United StatesDate: 05/31/2019
+------------------------------------------------------------
+
+Venue: American Airlines Arena Location: Miami, United StatesDate: 06/01/2019
+------------------------------------------------------------
+
+Venue: United Center Location: Chicago, United StatesDate: 06/04/2019
+------------------------------------------------------------
+
+Venue: United Center Location: Chicago, United StatesDate: 06/05/2019
+------------------------------------------------------------
+
+Venue: Bridgestone Arena Location: Nashville, United StatesDate: 06/07/2019
+------------------------------------------------------------
+
+Venue: State Farm Arena Location: Atlanta, United StatesDate: 06/08/2019
+------------------------------------------------------------
+
+Venue: Spectrum Center Location: Charlotte, United StatesDate: 06/10/2019
+------------------------------------------------------------
+
+Venue: PPG Paints Arena Location: Pittsburgh, United StatesDate: 06/12/2019
+------------------------------------------------------------
+
+Venue: Barclays Center Location: Brooklyn, United StatesDate: 06/14/2019
+------------------------------------------------------------
+
+Venue: Barclays Center Location: Brooklyn, United StatesDate: 06/15/2019
+------------------------------------------------------------
+
+Venue: Madison Square Garden Location: New York, United StatesDate: 06/18/2019
+------------------------------------------------------------
+
+Venue: Madison Square Garden Location: New York, United StatesDate: 06/19/2019
+------------------------------------------------------------
+
+Venue: Capital One Arena Location: Washington, United StatesDate: 06/21/2019
+------------------------------------------------------------
+
+Venue: TD Garden Location: Boston, United StatesDate: 06/22/2019
+------------------------------------------------------------
+
+Venue: Wells Fargo Center Location: Philadelphia, United StatesDate: 06/24/2019
+------------------------------------------------------------
+
+Venue: Scotiabank Arena Location: Toronto, CanadaDate: 06/26/2019
+------------------------------------------------------------
+
+Venue: Bankers Life Fieldhouse Location: Indianapolis, United StatesDate: 06/29/2019
+------------------------------------------------------------
+
+Venue: The Schottenstein Center Location: Columbus, United StatesDate: 07/01/2019
+------------------------------------------------------------
+
+Venue: Fiserv Forum Location: Milwaukee, United StatesDate: 07/05/2019
+------------------------------------------------------------
+
+Venue: Enterprise Center Location: St. Louis, United StatesDate: 07/06/2019
+------------------------------------------------------------
+
+Venue: Xcel Energy Center Location: St Paul, United StatesDate: 07/08/2019
 ------------------------------------------------------------
 
 Venue: Pepsi Center Location: Denver, United StatesDate: 07/11/2019
 ------------------------------------------------------------
 
+Venue: Vivint Smart Home Arena Location: Salt Lake City, United StatesDate: 07/13/2019
+------------------------------------------------------------
+
+Venue: Grant Park Location: Chicago, United StatesDate: 08/03/2019
+------------------------------------------------------------
+
+Venue: Lollapalooza Location: Chicago, United StatesDate: 08/04/2019
+------------------------------------------------------------
+
+Venue: The O2 Arena Location: London, United KingdomDate: 08/17/2019
+------------------------------------------------------------
+
+Venue: The O2 Location: London, United KingdomDate: 08/19/2019
+------------------------------------------------------------
+
+Venue: The O2 Arena Location: London, United KingdomDate: 08/20/2019
+------------------------------------------------------------
+
+Venue: Ziggo Dome Location: Amsterdam, NetherlandsDate: 08/23/2019
+------------------------------------------------------------
+
+Venue: Ziggo Dome Location: Amsterdam, NetherlandsDate: 08/24/2019
+------------------------------------------------------------
+
+Venue: AccorHotels Arena Location: Paris, FranceDate: 08/27/2019
+------------------------------------------------------------
+
+Venue: AccorHotels Arena Location: Paris, FranceDate: 08/28/2019
+------------------------------------------------------------
+
+Venue: Sportpaleis Antwerpen Location: Antwerpen, BelgiumDate: 08/30/2019
+------------------------------------------------------------
+
+Venue: Lanxess Arena Location: Köln, GermanyDate: 09/01/2019
+------------------------------------------------------------
+
+Venue: Stadthalle Location: Vienna, AustriaDate: 09/03/2019
+------------------------------------------------------------
+
+Venue: Barclaycard Arena Location: Hamburg, GermanyDate: 09/05/2019
+------------------------------------------------------------
+
+Venue: O2 arena Location: Praha 9, Czech RepublicDate: 09/08/2019
+------------------------------------------------------------
+
 Venue: Tauron Arena Location: Kraków, PolandDate: 09/09/2019
+------------------------------------------------------------
+
+Venue: Ziggo Dome Location: Amsterdam, NetherlandsDate: 09/11/2019
+------------------------------------------------------------
+
+Venue: Arena Birmingham Location: Birmingham, United KingdomDate: 09/14/2019
+------------------------------------------------------------
+
+Venue: Arena Birmingham Location: Birmingham, United KingdomDate: 09/15/2019
+------------------------------------------------------------
+
+Venue: The SSE Hydro Location: Glasgow, United KingdomDate: 09/17/2019
+------------------------------------------------------------
+
+Venue: FlyDSA Arena Location: Sheffield, United KingdomDate: 09/19/2019
+------------------------------------------------------------
+
+Venue: 3Arena Location: Dublin, IrelandDate: 09/22/2019
+------------------------------------------------------------
+
+Venue: 3Arena Location: Dublin, IrelandDate: 09/23/2019
+------------------------------------------------------------
+
+Venue: AT&T Center Location: San Antonio, United StatesDate: 05/17/2019
+------------------------------------------------------------
+
+Venue: Barclaycard Arena Location: Hamburg, GermanyDate: 09/28/2019
+------------------------------------------------------------
+
+Venue: Royal Arena Location: Copenhagen, DenmarkDate: 10/01/2019
+------------------------------------------------------------
+
+Venue: Telenor Arena Location: Oslo, NorwayDate: 10/03/2019
+------------------------------------------------------------
+
+Venue: Hartwall Arena Location: Hki, FinlandDate: 10/05/2019
+------------------------------------------------------------
+
+Venue: Ericsson Globe Location: Stockholm, SwedenDate: 10/07/2019
+------------------------------------------------------------
+
+Venue: Mercedes-Benz-Arena Location: Berlin, GermanyDate: 10/10/2019
+------------------------------------------------------------
+
+Venue: Hallenstadion Location: Zürich, SwitzerlandDate: 10/13/2019
+------------------------------------------------------------
+
+Venue: 3Arena Location: Dublin, IrelandDate: 09/25/2019
+------------------------------------------------------------
+
+Venue: Talking Stick Resort Arena Location: Phoenix, United StatesDate: 05/14/2019
+------------------------------------------------------------
+
+Venue: American Airlines Center Location: Dallas, United StatesDate: 05/21/2019
 ------------------------------------------------------------
 
